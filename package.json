@@ -1,0 +1,16 @@
+{
+  "name": "codecity",
+  "version": "0.1.0",
+  "description": "Standalone isometric code-city visualization: every file one cuboid, every folder one block.",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node test/run.mjs",
+    "city": "node tools/build-city.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "highlight.js": "^11.12.0",
+    "typescript": "^5.9.2"
+  }
+}
