@@ -13,6 +13,15 @@ npm test
 node tools/build-city.mjs [directory] [grid|spiral|manhattan|compact|treemap] [ignore,comma,list]
 ```
 
+Install dependencies only (Linux/macOS):
+```sh
+./scripts/linux/install.sh
+```
+Install dependencies only (Windows):
+```bat
+scripts\windows\install.bat
+```
+
 Or the idempotent shortcut (installs when missing, builds, opens in the browser):
 
 on Linux/macOS:
